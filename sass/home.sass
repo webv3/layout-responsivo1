@@ -1,0 +1,19 @@
+@import molecules/mixins
+
+$cor-fundo: red
+
+
+//*
+=border-radius($borda)
+	border-radius: $borda
+	-moz-border-radius: $borda
+*//
+
+@mixin teste($tamanho)
+	width: $tamanho
+
+
+body
+	background-color: $cor-fundo
+.classe
+	@include teste(100px)

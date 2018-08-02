@@ -4,6 +4,7 @@
   "description": "\"# layout-responsivo1\"",
   "main": "index.js",
   "dependencies": {
+    "bootstrap-sass": "^3.3.7",
     "hoek": "^4.2.1",
     "jquery": "^3.3.1"
   },
